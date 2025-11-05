@@ -1,0 +1,21 @@
+Business Case 4 - Device Dominance and User Engagement Analysis
+
+1. DEVICE POPULARITY By State
+
+Analysis of device popularity by state shows Xiaomi as the leading smartphone brand nationwide, followed by Samsung, Vivo, Oppo, and Realme. Apple and OnePlus have limited but significant adoption in metro regions. Regional variations indicate that South and East India favor Vivo/Realme, while Northern and Western states favor Samsung. Budget-friendly Android devices dominate the market, reflecting the demographic trend of mass adoption of affordable smartphones for digital payments.
+
+2. YEAR-WISE USER DISTRIBUTION BY CATEGORY
+
+Xiaomi consistently leads user adoption on PhonePe from 2018–2022, followed by Vivo and Samsung.The dominance of mid-range Android brands highlights affordability and market reach across India.Gradual user growth each year reflects increasing smartphone-based digital payments penetration.
+
+3. LOW UTILIZED DEVICES
+
+Analysis of low-utilized devices on PhonePe shows that premium devices like Apple, OnePlus, and Huawei, as well as niche and legacy devices like Micromax, Infinix, Lava, and Lyf, contribute below-average activity. This indicates that the bulk of digital payment transactions are concentrated on widely adopted budget and mid-range Android devices. Strategically, targeting Xiaomi, Samsung, Vivo, Oppo, and Realme users may yield higher engagement and transaction growth.
+
+4. STATE-WISE ACTIVITY
+
+State-wise PhonePe activity shows that Maharashtra, Uttar Pradesh, Karnataka, Andhra Pradesh, Rajasthan, Telangana, and West Bengal lead in total user activity. Middle-tier states show moderate engagement, while smaller states and UTs have low activity due to population and penetration factors. This highlights that digital payment adoption is concentrated in economically large and urbanized regions, guiding strategies for targeted growth and resource allocation.
+
+5. QUARTERLY ACTIVITY
+
+Quarterly PhonePe activity shows strong, consistent growth from 2018 to 2021, with user activity increasing each quarter. Peak activity occurs in Q4 of each year, reflecting seasonal and festival-driven usage. The data from 2022 onward is missing, indicating a need for updated records. Overall, the trend highlights rapid adoption of digital payments in India over the four-year period, with activity more than seven-fold higher in Q4 2021 compared to Q1 2018.

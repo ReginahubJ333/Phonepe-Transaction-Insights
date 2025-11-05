@@ -1,0 +1,683 @@
+State,Year,Quarter,Insurance_Type,Policy_Count,Policy_Amount
+Andaman & Nicobar Islands,2024,2,Insurance,1097,1744694.00
+Andaman & Nicobar Islands,2024,4,Insurance,1293,2026380.00
+Andaman & Nicobar Islands,2024,1,Insurance,1371,1964556.00
+Andaman & Nicobar Islands,2024,3,Insurance,1191,1752800.00
+Andaman & Nicobar Islands,2021,2,Insurance,137,181504.00
+Andaman & Nicobar Islands,2021,4,Insurance,757,1056380.00
+Andaman & Nicobar Islands,2021,1,Insurance,225,244266.00
+Andaman & Nicobar Islands,2021,3,Insurance,230,305235.00
+Andaman & Nicobar Islands,2020,2,Insurance,6,1360.00
+Andaman & Nicobar Islands,2020,4,Insurance,124,157975.00
+Andaman & Nicobar Islands,2020,3,Insurance,41,15380.00
+Andaman & Nicobar Islands,2022,2,Insurance,501,779740.00
+Andaman & Nicobar Islands,2022,4,Insurance,901,1441210.00
+Andaman & Nicobar Islands,2022,1,Insurance,768,1131287.00
+Andaman & Nicobar Islands,2022,3,Insurance,643,902466.00
+Andaman & Nicobar Islands,2023,2,Insurance,768,1233395.00
+Andaman & Nicobar Islands,2023,4,Insurance,1145,1757821.00
+Andaman & Nicobar Islands,2023,1,Insurance,1004,1439198.00
+Andaman & Nicobar Islands,2023,3,Insurance,795,1251145.00
+Andhra Pradesh,2024,2,Insurance,42547,62948281.00
+Andhra Pradesh,2024,4,Insurance,61425,80028914.00
+Andhra Pradesh,2024,1,Insurance,46582,63563802.00
+Andhra Pradesh,2024,3,Insurance,48014,73915199.00
+Andhra Pradesh,2021,2,Insurance,33205,22730687.00
+Andhra Pradesh,2021,4,Insurance,25423,31610335.00
+Andhra Pradesh,2021,1,Insurance,22105,12749874.00
+Andhra Pradesh,2021,3,Insurance,23075,19914338.00
+Andhra Pradesh,2020,2,Insurance,22104,3982391.00
+Andhra Pradesh,2020,4,Insurance,21464,12985632.00
+Andhra Pradesh,2020,3,Insurance,49812,12426481.00
+Andhra Pradesh,2022,2,Insurance,32185,41708072.00
+Andhra Pradesh,2022,4,Insurance,44329,58043239.00
+Andhra Pradesh,2022,1,Insurance,29954,42648157.00
+Andhra Pradesh,2022,3,Insurance,39301,48791931.00
+Andhra Pradesh,2023,2,Insurance,36376,52067478.00
+Andhra Pradesh,2023,4,Insurance,41798,62342423.00
+Andhra Pradesh,2023,1,Insurance,34920,51963355.00
+Andhra Pradesh,2023,3,Insurance,43150,57802396.00
+Arunachal Pradesh,2024,2,Insurance,1147,2353015.00
+Arunachal Pradesh,2024,4,Insurance,999,2359472.00
+Arunachal Pradesh,2024,1,Insurance,1100,2419700.00
+Arunachal Pradesh,2024,3,Insurance,842,1951385.00
+Arunachal Pradesh,2021,2,Insurance,204,224928.00
+Arunachal Pradesh,2021,4,Insurance,320,598459.00
+Arunachal Pradesh,2021,1,Insurance,194,131611.00
+Arunachal Pradesh,2021,3,Insurance,212,371051.00
+Arunachal Pradesh,2020,2,Insurance,65,14329.00
+Arunachal Pradesh,2020,4,Insurance,125,84247.00
+Arunachal Pradesh,2020,3,Insurance,135,39687.00
+Arunachal Pradesh,2022,2,Insurance,564,1360231.00
+Arunachal Pradesh,2022,4,Insurance,613,1464572.00
+Arunachal Pradesh,2022,1,Insurance,355,894107.00
+Arunachal Pradesh,2022,3,Insurance,510,1300304.00
+Arunachal Pradesh,2023,2,Insurance,696,2095988.00
+Arunachal Pradesh,2023,4,Insurance,809,2105408.00
+Arunachal Pradesh,2023,1,Insurance,606,1747475.00
+Arunachal Pradesh,2023,3,Insurance,718,1904786.00
+Assam,2024,2,Insurance,22368,34796603.00
+Assam,2024,4,Insurance,21805,35336229.00
+Assam,2024,1,Insurance,33097,48107248.00
+Assam,2024,3,Insurance,17633,31388971.00
+Assam,2021,2,Insurance,3265,3008122.00
+Assam,2021,4,Insurance,8622,13962068.00
+Assam,2021,1,Insurance,3167,2334419.00
+Assam,2021,3,Insurance,4495,6010865.00
+Assam,2020,2,Insurance,978,210034.00
+Assam,2020,4,Insurance,2413,1806801.00
+Assam,2020,3,Insurance,2206,599450.00
+Assam,2022,2,Insurance,9228,15357811.00
+Assam,2022,4,Insurance,18826,29239168.00
+Assam,2022,1,Insurance,16230,27447766.00
+Assam,2022,3,Insurance,14149,22543564.00
+Assam,2023,2,Insurance,16475,28368139.00
+Assam,2023,4,Insurance,23168,38731734.00
+Assam,2023,1,Insurance,22100,36963888.00
+Assam,2023,3,Insurance,22593,35618158.00
+Bihar,2024,2,Insurance,49101,65285065.00
+Bihar,2024,4,Insurance,62662,83739800.00
+Bihar,2024,1,Insurance,51592,63844442.00
+Bihar,2024,3,Insurance,44745,62777286.00
+Bihar,2021,2,Insurance,14301,13301581.00
+Bihar,2021,4,Insurance,22456,27313813.00
+Bihar,2021,1,Insurance,12554,8796619.00
+Bihar,2021,3,Insurance,18030,18234941.00
+Bihar,2020,2,Insurance,2816,595621.00
+Bihar,2020,4,Insurance,9913,7860932.00
+Bihar,2020,3,Insurance,9733,2161102.00
+Bihar,2022,2,Insurance,21892,28212833.00
+Bihar,2022,4,Insurance,33895,43914519.00
+Bihar,2022,1,Insurance,20253,27755736.00
+Bihar,2022,3,Insurance,28511,34704251.00
+Bihar,2023,2,Insurance,29212,40354886.00
+Bihar,2023,4,Insurance,41447,57624322.00
+Bihar,2023,1,Insurance,26929,38746711.00
+Bihar,2023,3,Insurance,36550,45832355.00
+Chandigarh,2024,2,Insurance,1798,3177315.00
+Chandigarh,2024,4,Insurance,2095,3729932.00
+Chandigarh,2024,1,Insurance,1730,3143984.00
+Chandigarh,2024,3,Insurance,1991,3445738.00
+Chandigarh,2021,2,Insurance,378,310943.00
+Chandigarh,2021,4,Insurance,710,835813.00
+Chandigarh,2021,1,Insurance,338,238576.00
+Chandigarh,2021,3,Insurance,494,469634.00
+Chandigarh,2020,2,Insurance,149,29537.00
+Chandigarh,2020,4,Insurance,200,153341.00
+Chandigarh,2020,3,Insurance,264,70969.00
+Chandigarh,2022,2,Insurance,1330,1874959.00
+Chandigarh,2022,4,Insurance,1403,2024528.00
+Chandigarh,2022,1,Insurance,792,1150932.00
+Chandigarh,2022,3,Insurance,1533,1998439.00
+Chandigarh,2023,2,Insurance,1704,2501107.00
+Chandigarh,2023,4,Insurance,1767,3053934.00
+Chandigarh,2023,1,Insurance,1520,2415574.00
+Chandigarh,2023,3,Insurance,1883,2660630.00
+Chhattisgarh,2024,2,Insurance,15724,25935743.00
+Chhattisgarh,2024,4,Insurance,22723,37421165.00
+Chhattisgarh,2024,1,Insurance,19579,30083259.00
+Chhattisgarh,2024,3,Insurance,16550,27724060.00
+Chhattisgarh,2021,2,Insurance,5055,3813417.00
+Chhattisgarh,2021,4,Insurance,6029,8229039.00
+Chhattisgarh,2021,1,Insurance,4712,2620468.00
+Chhattisgarh,2021,3,Insurance,4676,3568837.00
+Chhattisgarh,2020,2,Insurance,1346,279005.00
+Chhattisgarh,2020,4,Insurance,3757,2249901.00
+Chhattisgarh,2020,3,Insurance,4702,1393656.00
+Chhattisgarh,2022,2,Insurance,7008,10119964.00
+Chhattisgarh,2022,4,Insurance,11994,18137856.00
+Chhattisgarh,2022,1,Insurance,6612,10139190.00
+Chhattisgarh,2022,3,Insurance,8849,12119470.00
+Chhattisgarh,2023,2,Insurance,10514,16389610.00
+Chhattisgarh,2023,4,Insurance,17300,29704673.00
+Chhattisgarh,2023,1,Insurance,10460,16577191.00
+Chhattisgarh,2023,3,Insurance,11927,17838382.00
+Dadra & Nagar Haveli & Daman & Diu,2024,2,Insurance,1008,1367259.00
+Dadra & Nagar Haveli & Daman & Diu,2024,4,Insurance,1503,2292529.00
+Dadra & Nagar Haveli & Daman & Diu,2024,1,Insurance,1295,1908509.00
+Dadra & Nagar Haveli & Daman & Diu,2024,3,Insurance,1052,1602869.00
+Dadra & Nagar Haveli & Daman & Diu,2021,2,Insurance,368,275638.00
+Dadra & Nagar Haveli & Daman & Diu,2021,4,Insurance,421,425384.00
+Dadra & Nagar Haveli & Daman & Diu,2021,1,Insurance,467,285691.00
+Dadra & Nagar Haveli & Daman & Diu,2021,3,Insurance,360,273596.00
+Dadra & Nagar Haveli & Daman & Diu,2020,2,Insurance,651,101029.00
+Dadra & Nagar Haveli & Daman & Diu,2020,4,Insurance,232,149513.00
+Dadra & Nagar Haveli & Daman & Diu,2020,3,Insurance,257,65504.00
+Dadra & Nagar Haveli & Daman & Diu,2022,2,Insurance,438,686857.00
+Dadra & Nagar Haveli & Daman & Diu,2022,4,Insurance,871,1272628.00
+Dadra & Nagar Haveli & Daman & Diu,2022,1,Insurance,493,720741.00
+Dadra & Nagar Haveli & Daman & Diu,2022,3,Insurance,707,983776.00
+Dadra & Nagar Haveli & Daman & Diu,2023,2,Insurance,694,1058753.00
+Dadra & Nagar Haveli & Daman & Diu,2023,4,Insurance,1207,1973867.00
+Dadra & Nagar Haveli & Daman & Diu,2023,1,Insurance,799,1215168.00
+Dadra & Nagar Haveli & Daman & Diu,2023,3,Insurance,969,1333103.00
+Delhi,2024,2,Insurance,46189,68046072.00
+Delhi,2024,4,Insurance,67962,94390728.00
+Delhi,2024,1,Insurance,53050,76232346.00
+Delhi,2024,3,Insurance,49150,71139489.00
+Delhi,2021,2,Insurance,13292,10840929.00
+Delhi,2021,4,Insurance,34251,36578331.00
+Delhi,2021,1,Insurance,12822,9655261.00
+Delhi,2021,3,Insurance,16679,15007079.00
+Delhi,2020,2,Insurance,11716,1897480.00
+Delhi,2020,4,Insurance,9725,8045442.00
+Delhi,2020,3,Insurance,7588,1927285.00
+Delhi,2022,2,Insurance,26378,31787281.00
+Delhi,2022,4,Insurance,48908,60603173.00
+Delhi,2022,1,Insurance,28232,35442069.00
+Delhi,2022,3,Insurance,35944,41570160.00
+Delhi,2023,2,Insurance,41358,54951108.00
+Delhi,2023,4,Insurance,56336,77332401.00
+Delhi,2023,1,Insurance,45821,61040038.00
+Delhi,2023,3,Insurance,47113,58878500.00
+Goa,2024,2,Insurance,5021,7178558.00
+Goa,2024,4,Insurance,6662,9903374.00
+Goa,2024,1,Insurance,5225,7528093.00
+Goa,2024,3,Insurance,5354,8051690.00
+Goa,2021,2,Insurance,1016,1028339.00
+Goa,2021,4,Insurance,2087,2737316.00
+Goa,2021,1,Insurance,879,827384.00
+Goa,2021,3,Insurance,1214,1385986.00
+Goa,2020,2,Insurance,341,71100.00
+Goa,2020,4,Insurance,614,682364.00
+Goa,2020,3,Insurance,683,196864.00
+Goa,2022,2,Insurance,3524,5093510.00
+Goa,2022,4,Insurance,4388,6190669.00
+Goa,2022,1,Insurance,2634,3865245.00
+Goa,2022,3,Insurance,3157,4142108.00
+Goa,2023,2,Insurance,4166,5930801.00
+Goa,2023,4,Insurance,4883,7411001.00
+Goa,2023,1,Insurance,4097,5859549.00
+Goa,2023,3,Insurance,3927,5646054.00
+Gujarat,2024,2,Insurance,44007,63866463.00
+Gujarat,2024,4,Insurance,62526,91858105.00
+Gujarat,2024,1,Insurance,44665,62633910.00
+Gujarat,2024,3,Insurance,46763,70950327.00
+Gujarat,2021,2,Insurance,14676,10263998.00
+Gujarat,2021,4,Insurance,19142,23282921.00
+Gujarat,2021,1,Insurance,12673,7288104.00
+Gujarat,2021,3,Insurance,15348,12341903.00
+Gujarat,2020,2,Insurance,7697,1430591.00
+Gujarat,2020,4,Insurance,9990,6055037.00
+Gujarat,2020,3,Insurance,12525,3335812.00
+Gujarat,2022,2,Insurance,25381,32090965.00
+Gujarat,2022,4,Insurance,36418,50629325.00
+Gujarat,2022,1,Insurance,22221,29953433.00
+Gujarat,2022,3,Insurance,31302,37557227.00
+Gujarat,2023,2,Insurance,32484,46254095.00
+Gujarat,2023,4,Insurance,41128,66735446.00
+Gujarat,2023,1,Insurance,32600,46937694.00
+Gujarat,2023,3,Insurance,51049,65768085.00
+Haryana,2024,2,Insurance,46085,74779879.00
+Haryana,2024,4,Insurance,58808,94316512.00
+Haryana,2024,1,Insurance,50391,81816509.00
+Haryana,2024,3,Insurance,49735,79198642.00
+Haryana,2021,2,Insurance,12516,11272453.00
+Haryana,2021,4,Insurance,19489,25885838.00
+Haryana,2021,1,Insurance,11038,7297880.00
+Haryana,2021,3,Insurance,14163,13215898.00
+Haryana,2020,2,Insurance,6321,1179814.00
+Haryana,2020,4,Insurance,8283,5974278.00
+Haryana,2020,3,Insurance,7139,1884868.00
+Haryana,2022,2,Insurance,25352,33759068.00
+Haryana,2022,4,Insurance,37971,56627115.00
+Haryana,2022,1,Insurance,22783,32526943.00
+Haryana,2022,3,Insurance,35346,45402800.00
+Haryana,2023,2,Insurance,40710,62186066.00
+Haryana,2023,4,Insurance,47506,80747159.00
+Haryana,2023,1,Insurance,37287,61127194.00
+Haryana,2023,3,Insurance,42815,61782311.00
+Himachal Pradesh,2024,2,Insurance,5194,10008705.00
+Himachal Pradesh,2024,4,Insurance,6697,14090523.00
+Himachal Pradesh,2024,1,Insurance,5430,10433254.00
+Himachal Pradesh,2024,3,Insurance,5272,10538999.00
+Himachal Pradesh,2021,2,Insurance,1210,1402338.00
+Himachal Pradesh,2021,4,Insurance,2474,4667661.00
+Himachal Pradesh,2021,1,Insurance,1064,906492.00
+Himachal Pradesh,2021,3,Insurance,1759,2444545.00
+Himachal Pradesh,2020,2,Insurance,392,77936.00
+Himachal Pradesh,2020,4,Insurance,710,630966.00
+Himachal Pradesh,2020,3,Insurance,531,165559.00
+Himachal Pradesh,2022,2,Insurance,2831,5371078.00
+Himachal Pradesh,2022,4,Insurance,4565,9060436.00
+Himachal Pradesh,2022,1,Insurance,2768,5234739.00
+Himachal Pradesh,2022,3,Insurance,3641,6161692.00
+Himachal Pradesh,2023,2,Insurance,4197,8499425.00
+Himachal Pradesh,2023,4,Insurance,5211,11898824.00
+Himachal Pradesh,2023,1,Insurance,3909,7826133.00
+Himachal Pradesh,2023,3,Insurance,3935,7869767.00
+Jammu & Kashmir,2024,2,Insurance,7397,14237707.00
+Jammu & Kashmir,2024,4,Insurance,8893,18252110.00
+Jammu & Kashmir,2024,1,Insurance,7313,14695182.00
+Jammu & Kashmir,2024,3,Insurance,7597,15554635.00
+Jammu & Kashmir,2021,2,Insurance,1197,1832089.00
+Jammu & Kashmir,2021,4,Insurance,3113,5223317.00
+Jammu & Kashmir,2021,1,Insurance,1105,1546288.00
+Jammu & Kashmir,2021,3,Insurance,1452,2139133.00
+Jammu & Kashmir,2020,2,Insurance,206,48484.00
+Jammu & Kashmir,2020,4,Insurance,647,734861.00
+Jammu & Kashmir,2020,3,Insurance,441,133339.00
+Jammu & Kashmir,2022,2,Insurance,4071,7729792.00
+Jammu & Kashmir,2022,4,Insurance,5031,10111183.00
+Jammu & Kashmir,2022,1,Insurance,3584,7244267.00
+Jammu & Kashmir,2022,3,Insurance,4794,8281826.00
+Jammu & Kashmir,2023,2,Insurance,5262,10974839.00
+Jammu & Kashmir,2023,4,Insurance,6264,13932309.00
+Jammu & Kashmir,2023,1,Insurance,4555,10275877.00
+Jammu & Kashmir,2023,3,Insurance,5453,10975874.00
+Jharkhand,2024,2,Insurance,22224,32245129.00
+Jharkhand,2024,4,Insurance,29079,42253614.00
+Jharkhand,2024,1,Insurance,24824,34332990.00
+Jharkhand,2024,3,Insurance,23629,34353146.00
+Jharkhand,2021,2,Insurance,5180,5084230.00
+Jharkhand,2021,4,Insurance,8465,11190423.00
+Jharkhand,2021,1,Insurance,4879,3274851.00
+Jharkhand,2021,3,Insurance,6794,7046048.00
+Jharkhand,2020,2,Insurance,2063,405031.00
+Jharkhand,2020,4,Insurance,3659,2857024.00
+Jharkhand,2020,3,Insurance,5368,1349934.00
+Jharkhand,2022,2,Insurance,9477,13464840.00
+Jharkhand,2022,4,Insurance,16779,23147805.00
+Jharkhand,2022,1,Insurance,9373,13819466.00
+Jharkhand,2022,3,Insurance,14388,18156857.00
+Jharkhand,2023,2,Insurance,16662,23216215.00
+Jharkhand,2023,4,Insurance,22398,33484644.00
+Jharkhand,2023,1,Insurance,16108,23823406.00
+Jharkhand,2023,3,Insurance,19478,25165702.00
+Karnataka,2024,2,Insurance,142599,239304982.00
+Karnataka,2024,4,Insurance,183532,305861806.00
+Karnataka,2024,1,Insurance,169357,264708700.00
+Karnataka,2024,3,Insurance,174990,287393291.00
+Karnataka,2021,2,Insurance,40969,39501006.00
+Karnataka,2021,4,Insurance,74436,90723288.00
+Karnataka,2021,1,Insurance,37595,30183325.00
+Karnataka,2021,3,Insurance,47468,48078366.00
+Karnataka,2020,2,Insurance,27358,4794150.00
+Karnataka,2020,4,Insurance,31747,26814968.00
+Karnataka,2020,3,Insurance,53701,12407394.00
+Karnataka,2022,2,Insurance,93385,123228632.00
+Karnataka,2022,4,Insurance,133971,185063287.00
+Karnataka,2022,1,Insurance,95640,130733580.00
+Karnataka,2022,3,Insurance,110273,144605784.00
+Karnataka,2023,2,Insurance,117232,175704013.00
+Karnataka,2023,4,Insurance,156076,248056311.00
+Karnataka,2023,1,Insurance,127376,186543426.00
+Karnataka,2023,3,Insurance,139699,199448538.00
+Kerala,2024,2,Insurance,65271,108142369.00
+Kerala,2024,4,Insurance,89533,144083113.00
+Kerala,2024,1,Insurance,73106,115101791.00
+Kerala,2024,3,Insurance,79123,131721699.00
+Kerala,2021,2,Insurance,9530,9676588.00
+Kerala,2021,4,Insurance,19199,31260319.00
+Kerala,2021,1,Insurance,5731,5040506.00
+Kerala,2021,3,Insurance,10926,13255646.00
+Kerala,2020,2,Insurance,1588,360216.00
+Kerala,2020,4,Insurance,5479,4445525.00
+Kerala,2020,3,Insurance,8811,2830361.00
+Kerala,2022,2,Insurance,35667,59920203.00
+Kerala,2022,4,Insurance,65563,103982997.00
+Kerala,2022,1,Insurance,37110,64172190.00
+Kerala,2022,3,Insurance,54587,85390924.00
+Kerala,2023,2,Insurance,61032,100620604.00
+Kerala,2023,4,Insurance,73543,121905046.00
+Kerala,2023,1,Insurance,62377,101786828.00
+Kerala,2023,3,Insurance,66059,110021582.00
+Ladakh,2024,2,Insurance,415,964349.00
+Ladakh,2024,4,Insurance,429,970334.00
+Ladakh,2024,1,Insurance,291,614435.00
+Ladakh,2024,3,Insurance,446,978637.00
+Ladakh,2021,2,Insurance,46,86251.00
+Ladakh,2021,4,Insurance,76,195966.00
+Ladakh,2021,1,Insurance,32,34530.00
+Ladakh,2021,3,Insurance,192,174052.00
+Ladakh,2020,2,Insurance,14,2538.00
+Ladakh,2020,4,Insurance,27,34206.00
+Ladakh,2020,3,Insurance,33,10260.00
+Ladakh,2022,2,Insurance,113,269446.00
+Ladakh,2022,4,Insurance,162,410091.00
+Ladakh,2022,1,Insurance,75,193935.00
+Ladakh,2022,3,Insurance,137,369742.00
+Ladakh,2023,2,Insurance,215,635831.00
+Ladakh,2023,4,Insurance,242,718967.00
+Ladakh,2023,1,Insurance,161,495736.00
+Ladakh,2023,3,Insurance,232,649027.00
+Lakshadweep,2024,2,Insurance,26,33630.00
+Lakshadweep,2024,4,Insurance,159,185542.00
+Lakshadweep,2024,1,Insurance,15,12935.00
+Lakshadweep,2024,3,Insurance,49,55312.00
+Lakshadweep,2021,2,Insurance,5,6962.00
+Lakshadweep,2021,4,Insurance,11,17096.00
+Lakshadweep,2021,1,Insurance,4,5225.00
+Lakshadweep,2021,3,Insurance,19,16034.00
+Lakshadweep,2020,3,Insurance,4,1199.00
+Lakshadweep,2022,2,Insurance,18,27463.00
+Lakshadweep,2022,4,Insurance,15,27135.00
+Lakshadweep,2022,1,Insurance,27,34664.00
+Lakshadweep,2022,3,Insurance,38,41504.00
+Lakshadweep,2023,2,Insurance,15,38384.00
+Lakshadweep,2023,4,Insurance,53,78346.00
+Lakshadweep,2023,1,Insurance,26,30199.00
+Lakshadweep,2023,3,Insurance,12,12407.00
+Madhya Pradesh,2024,2,Insurance,41429,73836667.00
+Madhya Pradesh,2024,4,Insurance,59688,101096769.00
+Madhya Pradesh,2024,1,Insurance,51223,85215982.00
+Madhya Pradesh,2024,3,Insurance,43248,77995668.00
+Madhya Pradesh,2021,2,Insurance,14803,9787391.00
+Madhya Pradesh,2021,4,Insurance,15069,17524432.00
+Madhya Pradesh,2021,1,Insurance,14427,5567927.00
+Madhya Pradesh,2021,3,Insurance,11990,7806258.00
+Madhya Pradesh,2020,2,Insurance,6283,1198701.00
+Madhya Pradesh,2020,4,Insurance,10653,4897124.00
+Madhya Pradesh,2020,3,Insurance,14476,3496126.00
+Madhya Pradesh,2022,2,Insurance,14629,20159098.00
+Madhya Pradesh,2022,4,Insurance,29234,42712883.00
+Madhya Pradesh,2022,1,Insurance,13791,19901462.00
+Madhya Pradesh,2022,3,Insurance,22733,29185118.00
+Madhya Pradesh,2023,2,Insurance,27027,44871764.00
+Madhya Pradesh,2023,4,Insurance,40784,73801070.00
+Madhya Pradesh,2023,1,Insurance,26393,45135679.00
+Madhya Pradesh,2023,3,Insurance,29300,46963348.00
+Maharashtra,2024,2,Insurance,118933,198945046.00
+Maharashtra,2024,4,Insurance,168078,266942711.00
+Maharashtra,2024,1,Insurance,149016,224725389.00
+Maharashtra,2024,3,Insurance,119776,201319952.00
+Maharashtra,2021,2,Insurance,70381,46763103.00
+Maharashtra,2021,4,Insurance,82423,93262227.00
+Maharashtra,2021,1,Insurance,55792,33137753.00
+Maharashtra,2021,3,Insurance,52268,41313307.00
+Maharashtra,2020,2,Insurance,39836,6879717.00
+Maharashtra,2020,4,Insurance,44798,27113814.00
+Maharashtra,2020,3,Insurance,71662,19230156.00
+Maharashtra,2022,2,Insurance,80935,104603934.00
+Maharashtra,2022,4,Insurance,125900,174915648.00
+Maharashtra,2022,1,Insurance,88015,117411928.00
+Maharashtra,2022,3,Insurance,90958,113835208.00
+Maharashtra,2023,2,Insurance,102754,157303399.00
+Maharashtra,2023,4,Insurance,136968,217657114.00
+Maharashtra,2023,1,Insurance,112174,166596248.00
+Maharashtra,2023,3,Insurance,104872,151171882.00
+Manipur,2024,2,Insurance,346,647411.00
+Manipur,2024,4,Insurance,405,826159.00
+Manipur,2024,1,Insurance,385,685052.00
+Manipur,2024,3,Insurance,285,587893.00
+Manipur,2021,2,Insurance,127,81332.00
+Manipur,2021,4,Insurance,145,271789.00
+Manipur,2021,1,Insurance,136,72254.00
+Manipur,2021,3,Insurance,111,133016.00
+Manipur,2020,2,Insurance,55,12554.00
+Manipur,2020,4,Insurance,90,49057.00
+Manipur,2020,3,Insurance,134,45164.00
+Manipur,2022,2,Insurance,218,553649.00
+Manipur,2022,4,Insurance,271,620655.00
+Manipur,2022,1,Insurance,177,517854.00
+Manipur,2022,3,Insurance,200,403213.00
+Manipur,2023,2,Insurance,123,341671.00
+Manipur,2023,4,Insurance,225,476626.00
+Manipur,2023,1,Insurance,222,632084.00
+Manipur,2023,3,Insurance,76,193021.00
+Meghalaya,2024,2,Insurance,1235,2318007.00
+Meghalaya,2024,4,Insurance,1313,2493656.00
+Meghalaya,2024,1,Insurance,1030,1987107.00
+Meghalaya,2024,3,Insurance,1140,2443878.00
+Meghalaya,2021,2,Insurance,139,148434.00
+Meghalaya,2021,4,Insurance,263,451612.00
+Meghalaya,2021,1,Insurance,107,128776.00
+Meghalaya,2021,3,Insurance,139,214554.00
+Meghalaya,2020,2,Insurance,41,8829.00
+Meghalaya,2020,4,Insurance,92,71029.00
+Meghalaya,2020,3,Insurance,112,33615.00
+Meghalaya,2022,2,Insurance,379,789094.00
+Meghalaya,2022,4,Insurance,627,1189529.00
+Meghalaya,2022,1,Insurance,337,729211.00
+Meghalaya,2022,3,Insurance,600,1039491.00
+Meghalaya,2023,2,Insurance,730,1551577.00
+Meghalaya,2023,4,Insurance,806,1843364.00
+Meghalaya,2023,1,Insurance,562,1187523.00
+Meghalaya,2023,3,Insurance,809,1728076.00
+Mizoram,2024,2,Insurance,214,331455.00
+Mizoram,2024,4,Insurance,489,811687.00
+Mizoram,2024,1,Insurance,277,427693.00
+Mizoram,2024,3,Insurance,186,275746.00
+Mizoram,2021,2,Insurance,187,124805.00
+Mizoram,2021,4,Insurance,100,175847.00
+Mizoram,2021,1,Insurance,415,302841.00
+Mizoram,2021,3,Insurance,81,83641.00
+Mizoram,2020,2,Insurance,31,7322.00
+Mizoram,2020,4,Insurance,81,119124.00
+Mizoram,2020,3,Insurance,74,24691.00
+Mizoram,2022,2,Insurance,76,115090.00
+Mizoram,2022,4,Insurance,350,612551.00
+Mizoram,2022,1,Insurance,85,189428.00
+Mizoram,2022,3,Insurance,310,471306.00
+Mizoram,2023,2,Insurance,119,232928.00
+Mizoram,2023,4,Insurance,312,557950.00
+Mizoram,2023,1,Insurance,171,326688.00
+Mizoram,2023,3,Insurance,166,271799.00
+Nagaland,2024,2,Insurance,418,685292.00
+Nagaland,2024,4,Insurance,568,1168417.00
+Nagaland,2024,1,Insurance,526,925684.00
+Nagaland,2024,3,Insurance,410,820539.00
+Nagaland,2021,2,Insurance,85,139479.00
+Nagaland,2021,4,Insurance,183,341424.00
+Nagaland,2021,1,Insurance,79,42973.00
+Nagaland,2021,3,Insurance,91,123643.00
+Nagaland,2020,2,Insurance,41,9791.00
+Nagaland,2020,4,Insurance,62,38836.00
+Nagaland,2020,3,Insurance,89,20798.00
+Nagaland,2022,2,Insurance,186,380878.00
+Nagaland,2022,4,Insurance,367,700864.00
+Nagaland,2022,1,Insurance,242,529223.00
+Nagaland,2022,3,Insurance,210,439669.00
+Nagaland,2023,2,Insurance,269,628890.00
+Nagaland,2023,4,Insurance,331,822973.00
+Nagaland,2023,1,Insurance,320,704957.00
+Nagaland,2023,3,Insurance,268,632287.00
+Odisha,2024,2,Insurance,24579,36840474.00
+Odisha,2024,4,Insurance,33165,46973224.00
+Odisha,2024,1,Insurance,27977,40032495.00
+Odisha,2024,3,Insurance,26524,40608651.00
+Odisha,2021,2,Insurance,7942,5832924.00
+Odisha,2021,4,Insurance,9093,10941626.00
+Odisha,2021,1,Insurance,8236,4383330.00
+Odisha,2021,3,Insurance,7967,6008686.00
+Odisha,2020,2,Insurance,2981,615193.00
+Odisha,2020,4,Insurance,7526,4208701.00
+Odisha,2020,3,Insurance,10955,2640191.00
+Odisha,2022,2,Insurance,12371,16631095.00
+Odisha,2022,4,Insurance,24538,33565401.00
+Odisha,2022,1,Insurance,9627,14539309.00
+Odisha,2022,3,Insurance,18898,23308531.00
+Odisha,2023,2,Insurance,22163,31307110.00
+Odisha,2023,4,Insurance,25065,39753392.00
+Odisha,2023,1,Insurance,18899,29360555.00
+Odisha,2023,3,Insurance,20263,29008350.00
+Puducherry,2024,2,Insurance,2304,3322997.00
+Puducherry,2024,4,Insurance,2838,3896033.00
+Puducherry,2024,1,Insurance,2702,3793554.00
+Puducherry,2024,3,Insurance,2600,3968523.00
+Puducherry,2021,2,Insurance,526,508277.00
+Puducherry,2021,4,Insurance,786,946607.00
+Puducherry,2021,1,Insurance,372,351827.00
+Puducherry,2021,3,Insurance,561,556442.00
+Puducherry,2020,2,Insurance,112,22251.00
+Puducherry,2020,4,Insurance,234,197955.00
+Puducherry,2020,3,Insurance,191,58399.00
+Puducherry,2022,2,Insurance,1156,1597786.00
+Puducherry,2022,4,Insurance,2331,2693130.00
+Puducherry,2022,1,Insurance,1199,1663404.00
+Puducherry,2022,3,Insurance,1585,2025529.00
+Puducherry,2023,2,Insurance,1809,2614006.00
+Puducherry,2023,4,Insurance,2447,3419395.00
+Puducherry,2023,1,Insurance,1955,2593091.00
+Puducherry,2023,3,Insurance,2232,2891647.00
+Punjab,2024,2,Insurance,14129,27164397.00
+Punjab,2024,4,Insurance,16279,31878987.00
+Punjab,2024,1,Insurance,14729,28213940.00
+Punjab,2024,3,Insurance,15509,30111034.00
+Punjab,2021,2,Insurance,4047,3768919.00
+Punjab,2021,4,Insurance,6638,9912828.00
+Punjab,2021,1,Insurance,3783,2558380.00
+Punjab,2021,3,Insurance,4887,5271559.00
+Punjab,2020,2,Insurance,2036,399452.00
+Punjab,2020,4,Insurance,2451,1884291.00
+Punjab,2020,3,Insurance,2488,684753.00
+Punjab,2022,2,Insurance,9175,15465367.00
+Punjab,2022,4,Insurance,12187,21727831.00
+Punjab,2022,1,Insurance,7475,13155682.00
+Punjab,2022,3,Insurance,12370,19381895.00
+Punjab,2023,2,Insurance,13187,24998175.00
+Punjab,2023,4,Insurance,13777,28715828.00
+Punjab,2023,1,Insurance,10816,23330966.00
+Punjab,2023,3,Insurance,14048,24461488.00
+Rajasthan,2024,2,Insurance,55241,95504657.00
+Rajasthan,2024,4,Insurance,73530,127930986.00
+Rajasthan,2024,1,Insurance,59127,102926410.00
+Rajasthan,2024,3,Insurance,64533,108827800.00
+Rajasthan,2021,2,Insurance,18281,14357445.00
+Rajasthan,2021,4,Insurance,19375,24455262.00
+Rajasthan,2021,1,Insurance,17800,8074225.00
+Rajasthan,2021,3,Insurance,16643,12793862.00
+Rajasthan,2020,2,Insurance,5373,1095933.00
+Rajasthan,2020,4,Insurance,12509,6471573.00
+Rajasthan,2020,3,Insurance,15235,3758527.00
+Rajasthan,2022,2,Insurance,24333,33748931.00
+Rajasthan,2022,4,Insurance,40926,60792838.00
+Rajasthan,2022,1,Insurance,21517,31576932.00
+Rajasthan,2022,3,Insurance,33975,45565544.00
+Rajasthan,2023,2,Insurance,37170,61301449.00
+Rajasthan,2023,4,Insurance,49741,94701652.00
+Rajasthan,2023,1,Insurance,34415,61441050.00
+Rajasthan,2023,3,Insurance,39960,64328784.00
+Sikkim,2024,2,Insurance,685,1590554.00
+Sikkim,2024,4,Insurance,599,1381680.00
+Sikkim,2024,1,Insurance,400,880182.00
+Sikkim,2024,3,Insurance,461,1029398.00
+Sikkim,2021,2,Insurance,93,122064.00
+Sikkim,2021,4,Insurance,195,503532.00
+Sikkim,2021,1,Insurance,122,111777.00
+Sikkim,2021,3,Insurance,106,140552.00
+Sikkim,2020,2,Insurance,21,4789.00
+Sikkim,2020,4,Insurance,67,70214.00
+Sikkim,2020,3,Insurance,94,28000.00
+Sikkim,2022,2,Insurance,160,383709.00
+Sikkim,2022,4,Insurance,306,667214.00
+Sikkim,2022,1,Insurance,239,685987.00
+Sikkim,2022,3,Insurance,243,474940.00
+Sikkim,2023,2,Insurance,270,628191.00
+Sikkim,2023,4,Insurance,324,793745.00
+Sikkim,2023,1,Insurance,260,688605.00
+Sikkim,2023,3,Insurance,251,698251.00
+Tamil Nadu,2024,2,Insurance,97348,135972378.00
+Tamil Nadu,2024,4,Insurance,127002,173784251.00
+Tamil Nadu,2024,1,Insurance,111521,148976175.00
+Tamil Nadu,2024,3,Insurance,116867,162128271.00
+Tamil Nadu,2021,2,Insurance,17682,16444344.00
+Tamil Nadu,2021,4,Insurance,33037,42184290.00
+Tamil Nadu,2021,1,Insurance,14406,11180849.00
+Tamil Nadu,2021,3,Insurance,23107,23402918.00
+Tamil Nadu,2020,2,Insurance,5473,1075552.00
+Tamil Nadu,2020,4,Insurance,10290,8993575.00
+Tamil Nadu,2020,3,Insurance,8026,2257373.00
+Tamil Nadu,2022,2,Insurance,46714,61835120.00
+Tamil Nadu,2022,4,Insurance,125491,146457790.00
+Tamil Nadu,2022,1,Insurance,47621,64969045.00
+Tamil Nadu,2022,3,Insurance,64356,79747520.00
+Tamil Nadu,2023,2,Insurance,79698,105328191.00
+Tamil Nadu,2023,4,Insurance,104871,139433796.00
+Tamil Nadu,2023,1,Insurance,90690,116710222.00
+Tamil Nadu,2023,3,Insurance,91069,114625593.00
+Telangana,2024,2,Insurance,56941,96037304.00
+Telangana,2024,4,Insurance,78498,124755619.00
+Telangana,2024,1,Insurance,67388,105607539.00
+Telangana,2024,3,Insurance,64873,110715264.00
+Telangana,2021,2,Insurance,28870,20935651.00
+Telangana,2021,4,Insurance,34848,38845492.00
+Telangana,2021,1,Insurance,28298,14810947.00
+Telangana,2021,3,Insurance,27080,20925217.00
+Telangana,2020,2,Insurance,19003,3419453.00
+Telangana,2020,4,Insurance,20961,11339099.00
+Telangana,2020,3,Insurance,34395,8406543.00
+Telangana,2022,2,Insurance,45600,58056956.00
+Telangana,2022,4,Insurance,64655,88544127.00
+Telangana,2022,1,Insurance,36325,51942016.00
+Telangana,2022,3,Insurance,51465,64798126.00
+Telangana,2023,2,Insurance,55118,79238968.00
+Telangana,2023,4,Insurance,63993,105605522.00
+Telangana,2023,1,Insurance,54508,82678207.00
+Telangana,2023,3,Insurance,61523,84397465.00
+Tripura,2024,2,Insurance,2188,2869489.00
+Tripura,2024,4,Insurance,2794,3765732.00
+Tripura,2024,1,Insurance,2637,3417568.00
+Tripura,2024,3,Insurance,2516,3323343.00
+Tripura,2021,2,Insurance,381,409934.00
+Tripura,2021,4,Insurance,702,1022508.00
+Tripura,2021,1,Insurance,360,191531.00
+Tripura,2021,3,Insurance,494,649961.00
+Tripura,2020,2,Insurance,88,22054.00
+Tripura,2020,4,Insurance,244,149765.00
+Tripura,2020,3,Insurance,249,61642.00
+Tripura,2022,2,Insurance,1021,1509105.00
+Tripura,2022,4,Insurance,1508,2112534.00
+Tripura,2022,1,Insurance,907,1493401.00
+Tripura,2022,3,Insurance,1590,2105984.00
+Tripura,2023,2,Insurance,1563,2163813.00
+Tripura,2023,4,Insurance,2237,3169741.00
+Tripura,2023,1,Insurance,1642,2404958.00
+Tripura,2023,3,Insurance,2071,2899393.00
+Uttarakhand,2024,2,Insurance,10311,17754447.00
+Uttarakhand,2024,4,Insurance,13090,23367549.00
+Uttarakhand,2024,1,Insurance,11533,19531483.00
+Uttarakhand,2024,3,Insurance,10487,17860144.00
+Uttarakhand,2021,2,Insurance,2742,3265717.00
+Uttarakhand,2021,4,Insurance,5529,7849020.00
+Uttarakhand,2021,1,Insurance,2607,2719327.00
+Uttarakhand,2021,3,Insurance,4111,4646571.00
+Uttarakhand,2020,2,Insurance,660,134899.00
+Uttarakhand,2020,4,Insurance,1756,1961891.00
+Uttarakhand,2020,3,Insurance,1403,418543.00
+Uttarakhand,2022,2,Insurance,5773,9168313.00
+Uttarakhand,2022,4,Insurance,8750,13817747.00
+Uttarakhand,2022,1,Insurance,5339,8824948.00
+Uttarakhand,2022,3,Insurance,6784,10070172.00
+Uttarakhand,2023,2,Insurance,8051,14034915.00
+Uttarakhand,2023,4,Insurance,10040,19045152.00
+Uttarakhand,2023,1,Insurance,7552,13599026.00
+Uttarakhand,2023,3,Insurance,7856,12636749.00
+Uttar Pradesh,2024,2,Insurance,92458,159894258.00
+Uttar Pradesh,2024,4,Insurance,116589,199179867.00
+Uttar Pradesh,2024,1,Insurance,103701,176442664.00
+Uttar Pradesh,2024,3,Insurance,92930,157303596.00
+Uttar Pradesh,2021,2,Insurance,25952,25137571.00
+Uttar Pradesh,2021,4,Insurance,44132,59654951.00
+Uttar Pradesh,2021,1,Insurance,24103,18027573.00
+Uttar Pradesh,2021,3,Insurance,32799,32641118.00
+Uttar Pradesh,2020,2,Insurance,9884,1912266.00
+Uttar Pradesh,2020,4,Insurance,17470,14180417.00
+Uttar Pradesh,2020,3,Insurance,18131,4436969.00
+Uttar Pradesh,2022,2,Insurance,55133,77434953.00
+Uttar Pradesh,2022,4,Insurance,77022,116755813.00
+Uttar Pradesh,2022,1,Insurance,45996,73014969.00
+Uttar Pradesh,2022,3,Insurance,64514,87703512.00
+Uttar Pradesh,2023,2,Insurance,74194,122522457.00
+Uttar Pradesh,2023,4,Insurance,92125,165509877.00
+Uttar Pradesh,2023,1,Insurance,73080,127110494.00
+Uttar Pradesh,2023,3,Insurance,78940,121483170.00
+West Bengal,2024,2,Insurance,67048,89476633.00
+West Bengal,2024,4,Insurance,91719,120602777.00
+West Bengal,2024,1,Insurance,79576,104987909.00
+West Bengal,2024,3,Insurance,77158,107451766.00
+West Bengal,2021,2,Insurance,15200,12396029.00
+West Bengal,2021,4,Insurance,26320,31282871.00
+West Bengal,2021,1,Insurance,15488,11172042.00
+West Bengal,2021,3,Insurance,24839,21424337.00
+West Bengal,2020,2,Insurance,7619,1432764.00
+West Bengal,2020,4,Insurance,10233,7510455.00
+West Bengal,2020,3,Insurance,12596,2878482.00
+West Bengal,2022,2,Insurance,33542,41737021.00
+West Bengal,2022,4,Insurance,54277,70466433.00
+West Bengal,2022,1,Insurance,38779,51160527.00
+West Bengal,2022,3,Insurance,47853,59092307.00
+West Bengal,2023,2,Insurance,49792,65204280.00
+West Bengal,2023,4,Insurance,72712,100365562.00
+West Bengal,2023,1,Insurance,56833,77461732.00
+West Bengal,2023,3,Insurance,58131,76359312.00

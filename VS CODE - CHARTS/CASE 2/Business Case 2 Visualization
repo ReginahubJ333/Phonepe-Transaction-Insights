@@ -1,0 +1,154 @@
+import matplotlib.pyplot as plt
+import pandas as pd
+import mysql.connector
+import plotly.express as px
+
+# TOP 5 STATES BY TOTAL POLICY COUNT
+
+query1
+States = ["Karnataka", "Maharashtra", "Tamil Nadu", "Uttar Pradesh", "Telangana"]
+Policies = [1957404, 1815539, 1215269, 1139153, 894342]
+
+plt.figure(figsize=(10,6))
+plt.bar(States, Policies)
+plt.title("Top 5 States by Total Insurance Polices", fontsize=14, fontweight='bold')
+plt.xlabel("State", fontsize=12)
+plt.ylabel("Total Policy Count", fontsize=12)
+plt.xticks(rotation=20)
+plt.grid(axis='y', linestyle='--', alpha=0.7)
+plt.tight_layout()
+plt.show()
+
+# STATES WITH LOWEST INSURANCE
+
+conn = mysql.connector.connect(
+    host="localhost",
+    user="root",
+    password="Admin",
+    database="phonepe")
+
+query2 = """
+SELECT
+		  State, SUM(Count) AS Total_Policy
+	FROM aggregated_insurance
+	GROUP BY State
+	ORDER BY Total_Policy ASC
+	LIMIT 5;
+"""
+
+df =  pd.read_sql(query2, conn)
+conn.close()
+
+plt.figure(figsize=(8,5))
+plt.barh(df["State"], df["Total_Policy"], color="skyblue")
+plt.title("States with Lowest Insurance Policies", fontsize=16, fontweight="bold")
+plt.xlabel("Total Insurance Polices")
+plt.ylabel("State")
+
+for index, value in enumerate(df["Total_Policy"]):
+    plt.text(value + 100, index, str(value), va="center", fontsize=10)
+
+plt.tight_layout()
+plt.show()
+
+# STATE-WISE YEARLY INSURANCE POLICY DISTRIBUTION ANALYSIS
+
+conn = mysql.connector.connect(
+    host="localhost",
+    user="root",
+    password="Admin",
+    database="phonepe")
+
+query3 = """
+SELECT
+     State, Year, SUM(Count) AS Total_Policy
+FROM aggregated_insurance
+GROUP BY State, Year
+ORDER BY State, Total_Policy DESC;
+"""
+
+df = pd.read_sql(query3, conn)
+
+fig = px.line(
+    df,
+    x="Year",
+    y="Total_Policy",
+    color="State",
+    markers=True,
+    title="State-wise Yearly Insurance Policy Distribution (2020-2024)")
+
+fig.update_layout(
+    xaxis_title="Year",
+    yaxis_title="Total Number of Policies",
+    template="plotly_white",
+    legend_title_text="State")
+fig.show()
+
+# IDENTIFYING LOW PENETRATION STATES
+
+conn = mysql.connector.connect(
+    host="localhost",
+    user="root",
+    password="Admin",
+    database="phonepe")
+
+query4 = """
+SELECT
+      State, SUM(Count) AS Total_Policy
+FROM aggregated_insurance
+GROUP BY State
+HAVING SUM(Count) < (SELECT AVG(Total_Policy)
+     FROM (SELECT SUM(Count) AS Total_Policy FROM aggregated_insurance GROUP BY State) AS s
+)
+ORDER BY Total_Policy ASC;
+"""
+
+df = pd.read_sql(query4, conn)
+conn.close()
+
+fig = px.bar(
+    df,
+    x="Total_Policy",
+    y="State",
+    orientation="h",
+    title="Low Insurance Penetration States",
+    color="Total_Policy",
+    color_continuous_scale="tealgrn",
+    text="Total_Policy")
+fig.update_layout(
+    xaxis_title="Total Insurance Policies",
+    yaxis_title="State",
+    template="plotly_white")
+fig.show()   
+
+# QUARTERLY TREND ANALYSIS
+
+conn = mysql.connector.connect(
+    host="localhost",
+    user="root",
+    password="Admin",
+    database="phonepe")
+
+query5 = """
+SELECT Year, Quarter, SUM(Count) AS Total_Policy
+FROM aggregated_insurance
+GROUP BY Year, Quarter
+ORDER BY Year, Quarter;
+"""
+
+df = pd.read_sql(query5, conn)
+df["Year_Quarter"] = df["Year"].astype(str) + "-Q" + df["Quarter"].astype(str)
+
+fig = px.line(
+    df,
+    x="Year_Quarter",
+    y="Total_Policy",
+    title="Quarterly Trend of Insurance Policies (2020-2024)",
+    markers=True,
+    line_shape="linear")
+fig.update_traces(line=dict(width=3, color="orange"))
+fig.update_layout(
+    xaxis_title="Year_Quarter",
+    yaxis_title="Total_Policies",
+    template="plotly_white")
+fig.show()

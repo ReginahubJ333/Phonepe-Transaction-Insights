@@ -1,0 +1,158 @@
+import mysql.connector
+import pandas as pd
+import matplotlib.pyplot as plt
+import plotly.express as px
+
+# DEVICE POPULARITY BY STATE
+
+conn = mysql.connector.connect(
+    host="localhost",
+    user="root",
+    password="Admin",
+    database="phonepe"
+)
+query1 = """
+SELECT State, Category, SUM(Count) AS Total_Users
+FROM aggregated_User
+GROUP BY State, Category
+ORDER BY State, Total_Users DESC;
+"""
+df = pd.read_sql(query1,conn)
+conn.close()
+
+df.pivot = df.pivot(index='State', columns='Category', values='Total_Users').fillna(0)
+
+df.pivot.plot(kind='bar', stacked=True, figsize=(15,8), colormap='tab20')
+plt.ylabel('Total Users')
+plt.title('Device Popularity by State')
+plt.legend(title='Device', bbox_to_anchor=(1.05,1), loc='upper left')
+plt.xticks(rotation=45, ha='right')
+plt.tight_layout()
+plt.show()
+
+# YEAR-WISE USER DISTRIBUTION BY CATEGORY
+
+conn = mysql.connector.connect(
+    host="localhost",
+    user="root",
+    password="Admin",
+    database="phonepe")
+
+query2 = """SELECT Year, Category, SUM(Count) AS Total_Users
+FROM aggregated_User
+GROUP BY Year, Category
+ORDER BY Total_Users DESC;
+"""
+
+df = pd.read_sql(query2, conn)
+conn.close()
+
+top_brands = df.groupby("Category")["Total_Users"].sum().sort_values(ascending=False).head(5).index
+df_top = df[df["Category"].isin(top_brands)]
+pivot_df = df_top.pivot_table(values="Total_Users", index="Year", columns="Category", aggfunc="sum", fill_value=0)
+pivot_df.plot(kind="bar", stacked=True, figsize=(10,6), colormap="tab10")
+
+plt.title("Year-wise User Distribution by Category")
+plt.xlabel("Year", fontsize=12)
+plt.ylabel("Total Users", fontsize=12)
+plt.legend(title="Brand", bbox_to_anchor=(1.05, 1), loc="upper left")
+plt.tight_layout()
+plt.show()
+
+# LOW UTILIZED DEVICES
+
+conn = mysql.connector.connect(
+    host="localhost",
+    user="root",
+    password="Admin",
+    database="phonepe"
+)
+query3 = """
+SELECT Category, SUM(Count) AS Total_Activity
+FROM aggregated_User
+GROUP BY Category
+	HAVING Total_Activity < (
+		  SELECT AVG(Total_Activity)
+		  FROM (SELECT SUM(Count) AS Total_Activity FROM aggregated_User GROUP BY Category) AS Average_Category
+	)
+	ORDER BY Total_Activity DESC;  
+"""
+df = pd.read_sql(query3,conn)
+conn.close()
+
+plt.figure(figsize=(10,6))
+plt.barh(df['Category'], df['Total_Activity']/1e6, color='coral')
+plt.xlabel('Total Activity (Millions)')
+plt.ylabel('Category')
+plt.title('Low Utilized Devices on Phonepe')
+plt.gca().invert_yaxis()
+plt.tight_layout()
+plt.show()
+
+# STATE-WISE ACTIVITY
+
+conn = mysql.connector.connect(
+    host="localhost",
+    user="root",
+    password="Admin",
+    database="phonepe")
+
+query4 = """
+SELECT State, SUM(Count) AS Total_Activity
+FROM aggregated_User
+GROUP By State
+ORDER BY Total_Activity DESC;
+"""
+
+df = pd.read_sql(query4, conn)
+conn.close()
+
+top10 = df.sort_values(by="Total_Activity", ascending=False).head(10)
+
+plt.figure(figsize=(10,6))
+bars = plt.barh(top10["State"], top10["Total_Activity"]/1_000_000, color="royalblue")
+plt.gca().invert_yaxis()
+plt.title("Top 10 States by User Activity")
+plt.xlabel("Total Activity (in Millions)", fontsize=12)
+plt.ylabel("State", fontsize=12)
+
+for bar in bars:
+    plt.text(
+        bar.get_width() + 1,
+        bar.get_y() + bar.get_height()/2,
+        f"{bar.get_width():.0f}",
+        va="center")
+plt.tight_layout()    
+plt.show()
+
+# QUARTERLY ACTIVITY
+
+conn = mysql.connector.connect(
+    host="localhost",
+    user="root",
+    password="Admin",
+    database="phonepe")
+
+query5 = """
+SELECT Year, Quarter, SUM(Count) AS Total_Activity
+FROM aggregated_User
+GROUP BY Year, Quarter
+ORDER BY Year, Quarter;
+"""
+
+df = pd.read_sql(query5, conn)
+conn.close()
+
+df = df[df["Total_Activity"] > 0]
+df["Period"] = df["Year"].astype(str) + "-Q" + df["Quarter"].astype(str)
+df["Total_Activity_M"] = df["Total_Activity"]/1e6
+
+plt.figure(figsize=(10,5))
+plt.plot(df["Period"], df["Total_Activity_M"], marker='o')
+plt.title("Quarterly User Activity Trend on Phonepe")
+plt.xlabel("Year-Quarter")
+plt.ylabel("Total Activity (in Millions)")
+plt.xticks(rotation=45)
+plt.grid(True, linestyle='--', alpha=0.6)
+plt.tight_layout()
+plt.show()

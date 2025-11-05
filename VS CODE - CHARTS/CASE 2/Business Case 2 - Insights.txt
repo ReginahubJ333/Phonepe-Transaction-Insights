@@ -1,0 +1,25 @@
+Business Case 2: Insurance Penetration And Growth Potential Analysis
+
+1. Top 5 States by Total Policy Count
+
+The analysis of insurance policy counts across India shows that Karnataka and Maharashtra are leading contributors to digital insurance adoption via PhonePe. Southern states demonstrate significant penetration, while northern states like Uttar Pradesh show strong growth potential, making them key focus areas for future expansion strategies.
+
+2. States with Lowest Insurance
+
+The states of Lakshadweep, Ladakh, and parts of Northeast India exhibit minimal insurance penetration, indicating limited access to digital financial services. These regions represent high potential zones for targeted inclusion efforts and strategic expansion by fintech and insurance providers to boost national-level insurance coverage.
+
+3. State Wise Yearly Insurance Policy Distribution Analysis
+
+The number of insurance policies increased steadily across all leading states between 2020–2024.
+Karnataka recorded the highest growth, followed by Maharashtra and Tamil Nadu, reflecting strong insurance market expansion in the southern region.
+
+4. Identifying Low Penetration States
+
+States like Lakshadweep, Ladakh, Mizoram, and Manipur have the lowest insurance policy penetration in India, each recording fewer than 5,000 total policies.
+This indicates limited insurance awareness and accessibility in northeastern and union territory regions, calling for targeted financial inclusion programs.
+
+5. Quarterly Trend Analysis
+
+Insurance policy adoption shows a consistent upward trend from 2020 to 2024.
+Quarterly policies grew from ~0.18 million in 2020-Q2 to ~1.47 million in 2024-Q4, reflecting steady market expansion and increased insurance awareness post-2021.
+Slight dips are seen in early quarters of some years, indicating possible seasonal variations.

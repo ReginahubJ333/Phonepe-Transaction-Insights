@@ -1,0 +1,37 @@
+Business Case 5 - Insurance Transaction Analysis
+
+1. Total Insurance Transaction By State
+
+Top States
+
+Karnataka, Maharashtra, and Tamil Nadu are the highest contributors to insurance transactions.
+
+These states are likely to have higher insurance adoption due to urbanization, financial literacy, and insurance penetration.
+
+Low-Performing States & UTs
+
+Lakshadweep (159), Manipur (405), Ladakh (429), Mizoram (489), Nagaland (568) have very low transaction numbers, showing low penetration.
+
+Other small UTs (e.g., Andaman & Nicobar, Chandigarh, Dadra & Nagar Haveli & Daman & Diu) also contribute minimally.
+
+2. Year-Wise Total Insurance Transactions
+
+Total Transactions Growth: Steady increase from 788K in 2020 → 5.07M in 2024, showing rapid adoption of insurance.
+
+Key Growth Years: Significant jumps in 2021→2022 and 2023→2024, indicating accelerated penetration.
+
+Trend Insight: Clear upward trajectory; reflects rising digital insurance usage and expanding market opportunities.
+
+3. TOP 5 STATES WITH HIGHEST GROWTH IN TRANSACTION IN A YEAR
+
+Lakshadweep and Andaman & Nicobar Islands saw exceptional insurance transaction growth (875% and 689%) — a sign of rapid digital adoption from a low base.Jammu & Kashmir and Ladakh also demonstrated strong growth post-2020.Kerala’s 325% surge in 2022 indicates expanding insurance awareness and digital penetration in mature markets.
+
+4. TOTAL INSURANCE AMOUNT OVER YEARS
+
+Strong YoY Increase: Indicates expanding insurance adoption and larger transaction amounts.
+
+Market Insight: Rising trend reflects digital penetration and financial inclusion in India.
+
+5. TOP 5 STATES BY AVERAGE QUARTERLY GROWTH
+
+Karnataka leads with the highest average quarterly insurance transactions (≈1.03 lakh), followed by Maharashtra and Tamil Nadu.The dominance of these states indicates strong insurance adoption and higher digital penetration in southern and western India.

@@ -1,0 +1,23 @@
+Business Case 1: Decoding Transaction Dynamics on PhonePe
+
+1.State-Level Performance:
+
+Andhra Pradesh recorded the highest total transaction amount (~₹69 trillion), followed by Telangana, Karnataka, Maharashtra, and Bihar.These states collectively dominate PhonePe’s transaction landscape, reflecting robust digital ecosystems and widespread merchant adoption.
+
+2. Quarterly Growth Trend:
+
+Digital transactions show a steep and consistent rise from 2018 to 2024. Quarterly transactions grew from 0.15 B to 33.9 B (~225× increase), and total transaction value surged from ₹0.19 T to ₹43.6 T. Growth accelerated notably after 2020, reflecting stronger digital adoption and higher-value payments.
+
+3. Category-Wise Performance:
+
+Among all categories, Peer-to-Peer and Merchant Payments dominate, representing the bulk of PhonePe’s transaction value and count. The strong showing of Recharge & Bill Payments indicates user stickiness for regular transactions, while Financial Services mark a gradual expansion toward digital banking and wealth management.
+
+4. High and Low Performing States:
+
+Andhra Pradesh, Telangana, Karnataka, Maharashtra, and Bihar emerge as PhonePe’s top-performing states, collectively contributing the majority of India’s digital payment value.
+In contrast, smaller territories such as Mizoram and Lakshadweep record minimal activity, reflecting digital infrastructure limitations.Bridging this gap through targeted digital literacy and merchant expansion strategies could unlock significant new transaction volumes for PhonePe.
+
+5. District-Level High Performing Analysis:
+
+Visakhapatnam District clearly leads with over ₹4.2 lakh crore in digital transactions, followed by Guntur and Krishna.
+Andhra Pradesh dominates the top 10, highlighting its strong digital transaction ecosystem, while the Andaman districts appear much lower, showing limited activity.

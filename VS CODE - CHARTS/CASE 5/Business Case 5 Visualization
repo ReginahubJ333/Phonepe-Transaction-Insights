@@ -1,0 +1,164 @@
+import mysql.connector
+import pandas as pd 
+import matplotlib.pyplot as plt
+
+# TOTAL INSURANCE TRANSACTION BY STATE
+
+conn = mysql.connector.connect(
+    host="localhost",
+    user="root",
+    password="Admin",
+    database="phonepe"
+)
+query1 = """
+SELECT State, SUM(Count) AS Total_Transactions
+FROM aggregated_insurance
+WHERE Year = 2024 AND Quarter = 4
+GROUP BY State
+ORDER BY Total_Transactions DESC;
+"""
+df = pd.read_sql(query1,conn)
+conn.close()
+
+top10 = df.nlargest(10, 'Total_Transactions')
+plt.figure(figsize=(10,8))
+plt.pie(top10['Total_Transactions'], labels=top10['State'], autopct='%1.1f%%', startangle=140)
+plt.title('Top 10 States by Insurance Transactions (Q4 2024)')
+plt.show()
+
+#YEAR-WISE TOTAL INSURANCE TRANSACTIONS
+
+conn = mysql.connector.connect(
+    host="localhost",
+    user="root",
+    password="Admin",
+    database="phonepe"
+)
+query2 = """
+SELECT Year, SUM(Count) AS Total_Transactions
+FROM aggregated_insurance
+GROUP BY Year
+ORDER BY Year DESC;
+"""
+df = pd.read_sql(query2,conn)
+conn.close()
+
+plt.figure(figsize=(10,6))
+plt.plot(df['Year'], df['Total_Transactions'], marker='o', linestyle='-', color='teal')
+plt.title('Year-Wise Total Insurance Transactions (2024-2024)')
+plt.xlabel('Year')
+plt.ylabel('Total Transactions')
+plt.grid(True)
+plt.xticks(df['Year'])
+plt.show()
+
+# TOP 5 STATES WITH HIGHEST GROWTH IN TRANSACTION IN A YEAR
+
+conn = mysql.connector.connect(
+    host="localhost",
+    user="root",
+    password="Admin",
+    database="phonepe")
+
+query3 = """
+SELECT State, Year, SUM(Count) AS Total_Transactions,
+      LAG(SUM(Count)) OVER (PARTITION BY State ORDER BY Year) AS Previous_Year,
+      ROUND(
+      ((SUM(Count)-LAG(SUM(Count)) OVER (PARTITION BY State ORDER BY Year))
+      /LAG(SUM(Count)) OVER (PARTITION BY State ORDER BY Year) * 100),
+      2
+    ) AS Growth_Percentage  
+FROM aggregated_insurance
+GROUP BY State, Year
+ORDER BY Growth_Percentage DESC
+LIMIT 5;
+"""
+df = pd.read_sql(query3, conn)
+conn.close()
+
+df = df.sort_values(by="Growth_Percentage", ascending=True)
+
+plt.figure(figsize=(8,5))
+plt.barh(df["State"], df["Growth_Percentage"], color="mediumseagreen")
+plt.xlabel("Growth Percentage (%)")
+plt.ylabel("State")
+plt.title("Top 5 States with Highest Yeary Growth in Insurance Transactions")
+plt.gca().invert_yaxis()
+
+for i, val in enumerate(df["Growth_Percentage"]):
+    plt.text(val + 10, i, f"{val:.1f}%", va="center")    
+
+plt.tight_layout()
+plt.show()
+
+# TOTAL INSURANCE AMOUNT OVER YEARS
+
+conn = mysql.connector.connect(
+    host="localhost",
+    user="root",
+    password="Admin",
+    database="phonepe")
+
+query4 = """
+SELECT Year, SUM(Amount) As Total_Amount
+FROM aggregated_insurance
+GROUP BY Year
+ORDER BY Year;
+"""
+df = pd.read_sql(query4, conn)
+conn.close()
+
+df["Total_Amount_Cr"] = df["Total_Amount"]/1e7
+
+plt.figure(figsize=(8,5))
+plt.plot(df["Year"], df["Total_Amount_Cr"], marker="o", color="teal", linewidth=3)
+plt.title("Year-wise Growth in Total Insurance Amount", fontsize=14, weight="bold")
+plt.xlabel("Year", fontsize=12)
+plt.ylabel("Total Insurance Amount (in crores)", fontsize=12)
+
+for i, val in enumerate(df["Total_Amount_Cr"]):
+    plt.text(df["Year"][i], val+50, f"{val:,.0f}", ha="center", fontsize=10, color="black")
+
+plt.grid(alpha=0.3)
+plt.tight_layout()
+plt.show()
+
+# TOP 5 STATES BY AVERAGE QUARTERLY GROWTH
+
+conn = mysql.connector.connect(
+    host="localhost",
+    user="root",
+    password="Admin",
+    database="phonepe")
+
+query5 = """
+WITH Quarterly AS (
+    SELECT State, Year, Quarter, SUM(Count) AS Total_Transactions
+    FROM aggregated_insurance
+    GROUP BY State, Year, Quarter
+)
+SELECT State, ROUND(AVG(Total_Transactions),2) AS Average_Quarterly_Transactions
+FROM Quarterly
+GROUP BY State
+ORDER BY Average_Quarterly_Transactions DESC
+LIMIT 5;
+"""
+df = pd.read_sql(query5, conn)
+conn.close()
+
+df = df.sort_values(by="Average_Quarterly_Transactions", ascending=True)
+
+plt.figure(figsize=(8,5))
+bars = plt.barh(df["State"], df["Average_Quarterly_Transactions"], color="mediumseagreen")
+
+for bar in bars:
+    plt.text(bar.get_width()+2000, bar.get_y()+bar.get_height()/2,
+             f"{bar.get_width():,.0f}", va="center", fontsize=10)
+
+plt.title("Top 5 States by Average Quarterly Insurance Transactions", fontsize=14, weight="bold")
+plt.xlabel("Average Quarterly Transactions", fontsize=12)
+plt.ylabel("State", fontsize=12)
+plt.grid(axis="x", alpha=0.3)
+
+plt.tight_layout()
+plt.show()        

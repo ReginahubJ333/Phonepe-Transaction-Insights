@@ -1,0 +1,24 @@
+Business Case 3 - Transaction Analysis for Market Expansion
+
+1. Total Transaction Volume by State
+
+The analysis of PhonePe’s state-wise transaction volume reveals that digital payment adoption is highest in Maharashtra, Karnataka, and Telangana, accounting for a major share of India’s total transaction activity. Southern and Western states dominate, while North-Eastern regions show lower digital participation. The results highlight a regional digital divide, emphasizing the need for targeted awareness and infrastructure development in lower-performing regions to boost digital inclusivity.
+
+2. TOP 10 DISTRICTS BY TRANSACTION VOLUME
+
+The Top 10 districts by PhonePe transaction volume reveal that urban tech-driven centers dominate India’s digital payment landscape. Bengaluru Urban leads significantly, followed by Pune and Hyderabad, underscoring the strong fintech ecosystem in southern and western metros. Tier-2 cities like Jaipur, Visakhapatnam, and Khordha also show rising adoption, marking the expansion of digital financial inclusion beyond metros. Overall, the data highlights a metro-centric but widening reach of UPI transactions across India.
+
+3. Top Pincodes by Transaction Volume
+
+The top 10 pincodes show exceptional transaction volumes, with Telangana (500001, 500034) and Karnataka (560001) dominating digital payments.Urban and metropolitan pincodes clearly outperform, reflecting higher adoption and spending power in major cities.
+
+4. YEAR ON YEAR GROWTH IN TRANSACTIONS BY STATES
+
+The Year-on-Year growth trend reveals rapid expansion in digital transactions across states from 2018–2021, followed by stabilization post-2022.
+States like Telangana, Karnataka, and Maharashtra exhibited early explosive growth exceeding 100–500% YoY, while growth rates have gradually normalized, indicating market maturity and wider adoption of digital payment systems.
+
+5. TOTAL TRANSACTION VALUE BY STATE AND TRANSACTION TYPE
+
+Peer-to-Peer (P2P) payments dominate the digital transaction landscape, especially in Andhra Pradesh, Telangana, and Karnataka, each exceeding ₹3–5 lakh crores.
+Merchant payments follow as the second-largest contributor, indicating a steady rise in commercial digital adoption.
+States like Maharashtra and Tamil Nadu show a balanced mix across all categories, reflecting mature digital ecosystems.
